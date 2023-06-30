@@ -15,6 +15,12 @@ plugin-manager.lua manages plugins by using packer.nvim
 
 nvim tree -> <space>n to triger
 
+Controls)
+look keymaps.luanvim
+"a" to add new file in nvim-tree
+
+
 steps)
 1) install neovim
-2) 
+2) create .vimrc
+3) PackerSync
