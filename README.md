@@ -1,7 +1,6 @@
 reference)
 https://www.youtube.com/watch?v=vdn_pKJUda8
 
-
 about)
 settings are all in .config file
 
@@ -10,7 +9,7 @@ get color scheme from .vimrc file in ~/
 
 keymaps.lua has modified keymaps
 
-LSP -> Language Server Protocol   
+LSP -> Language Server Protocol
 
 plugin-manager.lua manages plugins by using packer.nvim
 :PackerSync to sync the plugins if added or removed
@@ -24,17 +23,23 @@ https://github.com/williamboman/mason-lspconfig.nvim
 formatting
 https://github.com/jay-babu/mason-null-ls.nvim
 
-
 tree sitter repo
 https://github.com/nvim-treesitter/nvim-treesitter
-
 
 Controls)
 look keymaps.luanvim
 "a" to add new file in nvim-tree
 
-
 steps)
-1) install neovim
-2) create .vimrc
-3) PackerSync
+
+1. install neovim
+2. create .vimrc
+3. PackerSync
+
+inside of .vimrc
+
+"set default clipboard to the system clipboard
+"set clipboard=unnamedplus
+
+syntax on
+colorscheme koehler
